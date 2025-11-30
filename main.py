@@ -13,7 +13,7 @@ while True:
             print(f"length {user_length} error")
             continue
         elif user_length <= 7 or user_length >= 128:
-            print("error. 0xFF")
+            print("error your password is either short or long")
             continue
         else:
             print(f"Your password is: {gen_pass(user_length)}")
